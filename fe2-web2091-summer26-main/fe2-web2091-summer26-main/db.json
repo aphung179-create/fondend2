@@ -1,3 +1,144 @@
 {
-  "stories": []
+  "stories": [
+    {
+      "id": 1,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/65/One_Piece_Logo.png",
+      "title": "One Piece",
+      "author": "Eiichiro Oda",
+      "description": "Cuộc hành trình của Monkey D. Luffy trên con đường trở thành Vua Hải Tặc."
+    },
+    {
+      "id": 2,
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+      "title": "Naruto",
+      "author": "Masashi Kishimoto",
+      "description": "Câu chuyện về Uzumaki Naruto với ước mơ trở thành Hokage."
+    },
+    {
+      "id": 3,
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Bleachanime.png",
+      "title": "Bleach",
+      "author": "Tite Kubo",
+      "description": "Ichigo Kurosaki trở thành Thần Chết để bảo vệ con người."
+    },
+    {
+      "id": 4,
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Attack_on_Titan_cover.jpg",
+      "title": "Attack on Titan",
+      "author": "Hajime Isayama",
+      "description": "Loài người chiến đấu chống lại những Titan khổng lồ."
+    },
+    {
+      "id": 5,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg",
+      "title": "Demon Slayer",
+      "author": "Koyoharu Gotouge",
+      "description": "Tanjiro lên đường tiêu diệt quỷ và cứu em gái Nezuko."
+    },
+    {
+      "id": 6,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/46/Jujutsu_kaisen.jpg",
+      "title": "Jujutsu Kaisen",
+      "author": "Gege Akutami",
+      "description": "Yuji Itadori tham gia thế giới chú thuật sư để chiến đấu với lời nguyền."
+    },
+    {
+      "id": 7,
+      "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/DB_Tank%C5%8Dbon.png",
+      "title": "Dragon Ball",
+      "author": "Akira Toriyama",
+      "description": "Son Goku cùng bạn bè bảo vệ Trái Đất khỏi những kẻ thù mạnh."
+    },
+    {
+      "id": 8,
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Death_Note_Vol_1.jpg",
+      "title": "Death Note",
+      "author": "Tsugumi Ohba",
+      "description": "Light Yagami sở hữu cuốn sổ có khả năng thay đổi số phận con người."
+    },
+    {
+      "id": 9,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/82/My_Hero_Academia_Volume_1.jpg",
+      "title": "My Hero Academia",
+      "author": "Kohei Horikoshi",
+      "description": "Midoriya Izuku theo đuổi giấc mơ trở thành anh hùng."
+    },
+    {
+      "id": 10,
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/18/Fullmetal_Alchemist_volume_1.jpg",
+      "title": "Fullmetal Alchemist",
+      "author": "Hiromu Arakawa",
+      "description": "Hai anh em Elric tìm kiếm Hòn đá Triết gia để sửa chữa sai lầm."
+    },
+    {
+      "id": 11,
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/Hunter_x_Hunter_Volume_1.jpg",
+      "title": "Hunter x Hunter",
+      "author": "Yoshihiro Togashi",
+      "description": "Gon Freecss bắt đầu hành trình trở thành Hunter."
+    },
+    {
+      "id": 12,
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/Tokyo_Ghoul_volume_1_cover.jpg",
+      "title": "Tokyo Ghoul",
+      "author": "Sui Ishida",
+      "description": "Kaneki Ken bị cuốn vào thế giới giữa con người và Ghoul."
+    },
+    {
+      "id": 13,
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/13/JoJo_Part_1_Phantom_Blood.jpg",
+      "title": "JoJo's Bizarre Adventure",
+      "author": "Hirohiko Araki",
+      "description": "Gia tộc Joestar chiến đấu chống lại những thế lực siêu nhiên."
+    },
+    {
+      "id": 14,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5a/Sword_Art_Online_light_novel_volume_1.jpg",
+      "title": "Sword Art Online",
+      "author": "Reki Kawahara",
+      "description": "Kirito chiến đấu để thoát khỏi thế giới game thực tế ảo."
+    },
+    {
+      "id": 15,
+      "image": "https://upload.wikimedia.org/wikipedia/en/8/85/Fairy_Tail_volume_1.jpg",
+      "title": "Fairy Tail",
+      "author": "Hiro Mashima",
+      "description": "Hội pháp sư Fairy Tail trải qua những cuộc phiêu lưu kỳ thú."
+    },
+    {
+      "id": 16,
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9e/Chainsaw_Man_volume_1.jpg",
+      "title": "Chainsaw Man",
+      "author": "Tatsuki Fujimoto",
+      "description": "Denji chiến đấu với quỷ bằng sức mạnh của Chainsaw Man."
+    },
+    {
+      "id": 17,
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/0d/Spy_x_Family_volume_1.jpg",
+      "title": "Spy x Family",
+      "author": "Tatsuya Endo",
+      "description": "Một gia đình giả tạo gồm điệp viên, sát thủ và cô bé đọc suy nghĩ."
+    },
+    {
+      "id": 18,
+      "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/Haikyuu_Volume_1.jpg",
+      "title": "Haikyuu!!",
+      "author": "Haruichi Furudate",
+      "description": "Hinata Shoyo theo đuổi giấc mơ trở thành vận động viên bóng chuyền."
+    },
+    {
+      "id": 19,
+      "image": "https://upload.wikimedia.org/wikipedia/en/4/4f/Dr._Stone_volume_1.jpg",
+      "title": "Dr. Stone",
+      "author": "Riichiro Inagaki",
+      "description": "Senku sử dụng khoa học để xây dựng lại nền văn minh nhân loại."
+    },
+    {
+      "id": 20,
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/25/Vinland_Saga_volume_1.jpg",
+      "title": "Vinland Saga",
+      "author": "Makoto Yukimura",
+      "description": "Câu chuyện về chiến binh Viking Thorfinn trên hành trình báo thù."
+    }
+  ]
 }
