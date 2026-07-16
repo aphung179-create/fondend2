@@ -1,13 +1,33 @@
-import { Modal, Form, Input, Button, message, Upload } from "antd";
-import { PlusOutlined, UploadOutlined } from "@ant-design/icons";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { Modal, Form, Input, Button, message, Select } from "antd";
+import { PlusOutlined } from "@ant-design/icons";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { useState } from "react";
-
+interface Story {
+  id: number;
+  title: string;
+  author: string;
+  image: string;
+  description: string;
+  category: string;
+}
 const AddStory = () => {
   const [open, setOpen] = useState(false);
   const [form] = Form.useForm();
   const queryClient = useQueryClient();
+
+  const { data: categories, isLoading: isLoadingCategories } = useQuery({
+  queryKey: ["categories"],
+  queryFn: async () => {
+    const res = await axios.get("http://localhost:3000/categories");
+    return res.data;
+  },
+});
+const categoryOptions = categories?.map((category: any) => ({
+  value: category.id,
+  label: category.name,
+}));
+
 
   const { mutate, isPending } = useMutation({
     mutationFn: async (values: any) => {
@@ -34,20 +54,9 @@ const AddStory = () => {
 
   return (
     <>
-      <Button type="primary" icon={<PlusOutlined />} onClick={() => setOpen(true)}>
-        Thêm truyện
-      </Button>
-
-      <Modal
-        title="Thêm truyện mới"
-        open={open}
-        onOk={handleOk}
-        onCancel={() => setOpen(false)}
-        confirmLoading={isPending}
-        okText="Thêm"
-        cancelText="Hủy"
-        destroyOnClose
-      >
+      
+    
+      
         <Form form={form} layout="vertical">
           <Form.Item
             label="Tên truyện"
@@ -76,11 +85,37 @@ const AddStory = () => {
           <Form.Item label="Mô tả" name="description">
             <Input.TextArea rows={3} placeholder="Nhập mô tả truyện" />
           </Form.Item>
-          <Form.Item label="Thể loại" name="category">
-          <cel>
-          </Form.Item>
-        </Form>
-      </Modal>
+
+      <Form.Item
+  label="Thể loại"
+  name="category"
+  rules={[{ required: true, message: "Vui lòng chọn thể loại" }]}
+>
+  <Select
+    placeholder="Chọn thể loại"
+    options={[
+      { value: "Action", label: "Action" },
+        { value: "Adventure", label: "Adventure" },
+        { value: "Comedy", label: "Comedy" },
+        { value: "Drama", label: "Drama" },
+        { value: "Fantasy", label: "Fantasy" },
+        { value: "Horror", label: "Horror" },
+        { value: "Mystery", label: "Mystery" },
+        { value: "Romance", label: "Romance" },
+        { value: "Sci-Fi", label: "Sci-Fi" },
+        { value: "Slice of Life", label: "Slice of Life" },
+    ]}
+     />
+     </Form.Item>
+
+
+     <Form.Item>
+          <Button htmlType="submit" loading={isPending}>
+            Submit
+          </Button>
+        </Form.Item>
+         
+        </Form> 
     </>
   );
 };

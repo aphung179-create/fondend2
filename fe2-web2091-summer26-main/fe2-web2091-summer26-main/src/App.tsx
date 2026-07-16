@@ -2,6 +2,7 @@ import { Toaster } from "react-hot-toast";
 import { Link } from "react-router-dom";
 import StoryList from "./StoryList";
 import AddStory from "./AddStory";
+import Lab5 from "./Lab5";
 // import Lab1 from "./lab2n";
 // import lab1 from "./Lab1";
 // import Lab3 from "./Lab3";
@@ -21,7 +22,7 @@ function App() {
             <Link to="/list" className="hover:text-gray-200">
               Danh sách
             </Link>
-            <Link to="/AddStory" className="hover:text-gray-200">
+            <Link to="" className="hover:text-gray-200">
               Thêm mới
             </Link>
           </div>
@@ -43,8 +44,9 @@ function App() {
         {/* <Lab1 />
         <Lab2 />
         <Lab3 /> */}
-        <StoryList />
-        <AddStory />
+        {/* <AddStory /> */}
+        
+        <Lab5 />
       </div>
 
       <Toaster />
