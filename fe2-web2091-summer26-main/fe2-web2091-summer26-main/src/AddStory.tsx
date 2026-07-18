@@ -77,7 +77,7 @@ const AddStory = () => {
             <Input.TextArea rows={3} placeholder="Nhập mô tả truyện" />
           </Form.Item>
           <Form.Item label="Thể loại" name="category">
-          <cel>
+            <Input placeholder="Nhập thể loại truyện" />
           </Form.Item>
         </Form>
       </Modal>

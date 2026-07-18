@@ -1,18 +1,19 @@
 {
   "stories": [
     {
-      "id": 1,
-      "image": "https://upload.wikimedia.org/wikipedia/en/6/65/One_Piece_Logo.png",
-      "title": "One Piece",
+      "title": "One Piecee",
       "author": "Eiichiro Oda",
-      "description": "Cuộc hành trình của Monkey D. Luffy trên con đường trở thành Vua Hải Tặc."
+      "image": "https://upload.wikimedia.org/wikipedia/vi/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg",
+      "description": "Cuộc hành trình của Monkey D. Luffy trên con đường trở thành Vua Hải Tặc.",
+      "category": " luu",
+      "id": 1
     },
     {
-      "id": 2,
-      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
       "title": "Naruto",
       "author": "Masashi Kishimoto",
-      "description": "Câu chuyện về Uzumaki Naruto với ước mơ trở thành Hokage."
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/94/NarutoCoverTankobon1.jpg",
+      "description": "Câu chuyện về Uzumaki Naruto với ước mơ trở thành Hokage.",
+      "id": 2
     },
     {
       "id": 3,
@@ -22,18 +23,18 @@
       "description": "Ichigo Kurosaki trở thành Thần Chết để bảo vệ con người."
     },
     {
-      "id": 4,
-      "image": "https://upload.wikimedia.org/wikipedia/en/7/70/Attack_on_Titan_cover.jpg",
       "title": "Attack on Titan",
       "author": "Hajime Isayama",
-      "description": "Loài người chiến đấu chống lại những Titan khổng lồ."
+      "image": "https://kilala.vn/data/upload/article/6344/titan5.jpg",
+      "description": "Loài người chiến đấu chống lại những Titan khổng lồ.",
+      "id": 4
     },
     {
-      "id": 5,
-      "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Demon_Slayer_-_Kimetsu_no_Yaiba%2C_volume_1.jpg",
       "title": "Demon Slayer",
       "author": "Koyoharu Gotouge",
-      "description": "Tanjiro lên đường tiêu diệt quỷ và cứu em gái Nezuko."
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3qgqxDB6ev3jxtiS0oHssqcG7tz7Hem7I98Nn28YScl9F6tqKrYk9koSZ&s=10",
+      "description": "Tanjiro lên đường tiêu diệt quỷ và cứu em gái Nezuko.",
+      "id": 5
     },
     {
       "id": 6,
